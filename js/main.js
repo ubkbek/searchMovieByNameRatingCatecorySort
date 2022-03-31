@@ -74,6 +74,7 @@ function renderMovies(array, place){
         newDiv.querySelector(".movie-year").textContent = item.year;
         newDiv.querySelector(".movie-rating").textContent = item.rating;
         newDiv.querySelector(".movie-youtube-link").href = item.youtubeLink;
+        newDiv.querySelector(".movie-youtube-linkk").href = item.youtubeLink;
 
         elFragment.appendChild(newDiv);
     });
